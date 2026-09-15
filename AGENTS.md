@@ -2,7 +2,7 @@
 
 Read the approved SPEC.md before implementation. Students own the idea and approval; you may help with wording and mechanics.
 
-Observable standing rule: When both Java sections are present and execution does not produce a compiler or runtime exception, the visualization must show the program’s actual behavior—even when its algorithm or data-structure implementation is logically incorrect.
+Observable grounding rule: The visualization area remains empty unless both editors contain code and that code compiles and executes without a runtime exception; otherwise, the interface displays only the relevant error or missing-input message.
 
 ## STOP 1: deploy and submit the starter
 
