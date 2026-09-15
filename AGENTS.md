@@ -2,6 +2,8 @@
 
 Read the approved SPEC.md before implementation. Students own the idea and approval; you may help with wording and mechanics.
 
+Observable grounding rule: The visualization area remains empty unless both editors contain code and that code compiles and executes without a runtime exception; otherwise, the interface displays only the relevant error or missing-input message.
+
 ## STOP 1: deploy and submit the starter
 
 Before customizing a student's project, ask the student to confirm both facts:
@@ -17,7 +19,7 @@ This student gate does not block an explicitly authorized maintainer task prepar
 
 After STOP 1, help the student propose and approve the six TARGET lines and one observable standing rule. Save and read them back from the build branch. Do not start the personal build until the brief is correct and the unchanged starter has a usable preview.
 
-## My standing rule
+Observable grounding rule: The visualization area remains empty unless both editors contain code and that code compiles and executes without a runtime exception; otherwise, the interface displays only the relevant error or missing-input message.
 
 [One observable, student-approved rule that protects this project's purpose or experience.]
 
