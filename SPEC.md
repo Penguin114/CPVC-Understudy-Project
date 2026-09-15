@@ -1,12 +1,8 @@
 # TARGET: today's build
 
-Choose the idea, person, interaction, and visual direction. The agent can help phrase and save your decisions after you approve them. The provided scope and review safeguards stay in place.
-
-- **Thing:** [My one-page website or mini-app and its main interaction.]
-- **Audience:** [One specific person, and what they want to do or understand.]
-- **Requirements:** One working primary interaction; selected states and results are understandable; honor my approved standing rule in AGENTS.md.
-- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label fictional or sample content. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
-- **Experience:** [My visual reference or direction and the most important layout or interaction relationship.]
-- **Test:** I can complete the main action, check one boundary or factual claim, and point to my standing rule's effect in the actual preview. After I approve and merge, the same registered Pages URL works.
-
-The coastal example has a [completed TARGET](examples/coast/SPEC.md). It demonstrates the format, not a required topic.
+Thing: A one-page Java Data Structure Visualizer that accepts implementation and usage code, then animates the code’s actual execution.
+Audience: First-year Computer Science students who want to understand program execution and debug their data-structure implementations visually.
+Requirements: Support linked lists, stacks, queues, searching, and recursion. Include Start and Stop controls, require both code inputs, and use a clear modular architecture so new structures can reuse the existing execution, state-tracking, controls, and visualization resources.
+Guardrails: Static browser code only; no external services, keys, accounts, runtime AI, or private data. Withhold visualization only for a definite compiler error or runtime exception. Preserve the example and publishing setup; work on a branch and wait for human review before shipping.
+Experience: Keep two vertically stacked Java inputs on the left and the visualization on the right. Select a readable view for each concept, such as nodes and arrows, stack or queue lanes, recursive call frames, and search comparisons.
+Test: I can run every supported concept, observe its actual state changes, stop a nonterminating execution, and verify that incomplete or exception-producing code shows no visualization. I can also add a new structure without rewriting the shared execution and interface systems.
