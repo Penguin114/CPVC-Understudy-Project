@@ -2,6 +2,8 @@
 
 Read the approved SPEC.md before implementation. Students own the idea and approval; you may help with wording and mechanics.
 
+Observable standing rule: When both Java sections are present and execution does not produce a compiler or runtime exception, the visualization must show the program’s actual behavior—even when its algorithm or data-structure implementation is logically incorrect.
+
 ## STOP 1: deploy and submit the starter
 
 Before customizing a student's project, ask the student to confirm both facts:
